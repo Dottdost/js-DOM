@@ -1,0 +1,132 @@
+header {
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-name {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #272626;
+}
+
+.mainMenu-info {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.main-view {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img-quotation {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.quotation-box {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.quotation-box h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.quotation-box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.feature {
+  background: #f9f9f9;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px 20px;
+  gap: 20px;
+  text-align: left;
+}
+
+.feature p {
+  font-size: 14px;
+}
+
+.product {
+  display: flex;
+  padding: 20px 0;
+  gap: 1px;
+  text-align: center;
+}
+
+.product img {
+  width: 250px;
+  height: 300px;
+}
+
+.product h3 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product p {
+  font-size: 14px;
+}
+
+.newsletter {
+  color: white;
+  background: #2a254b;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.newsletter h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.newsletter input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  background: #2a254b;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+}
